@@ -17,10 +17,10 @@ Se esperan las siguientes funcionalidades para el prototipo
 * El sistema permitirá crear reservas. Una reserva relaciona los huéspedes con los propietarios. Para ello cada reserva tiene una fecha de inicio, fecha de fin, un propietario asociado y un huésped asociado. Cuando se crea una reserva se cambia la variable que controla la disponibilidad del propietario para indicar que estará ocupado.  
 * El sistema tendrá una lista de reservas. 
 * El sistema permitirá liberar reservas. Una reserva se podrá liberar cuando el huesped haya abandonado el hogar del inquilino. Liberar una reserva significa borrarla del sistema. 
-* El sistema permitirá agregar evaluaciones. Cada evaluación está formada por una fecha, una calificación de 1 a 5, un mensaje de comentarios, la persona a la que se dirige y la persona que hizo la evaluación.  Cada vez que se agrega una evaluación el sistema recalcula el puntaje de la persona a la que se dirige la evaluación considerando el nuevo puntaje ( (nota anterior + nueva nota)/2 )  y actualiza su puntaje.  El sistema almacena la lista de evaluaciones. 
+* El sistema permitirá agregar evaluaciones. Cada evaluación está formada por una fecha, una calificación de 1 a 5, un mensaje de comentarios, la persona a la que se dirige y la persona que hizo la evaluación. Los huéspedes son las personas que evalúan al propietario. Cada vez que se agrega una evaluación el sistema recalcula el puntaje de la persona a la que se dirige la evaluación considerando el nuevo puntaje ( (nota anterior + nueva nota)/2 )  y actualiza su puntaje.  El sistema almacena la lista de evaluaciones. 
 
 ## Ejercicio
-> Actividad en parejas
+> Actividad en grupos de 3 personas (máximo) - mínimo 2 personas
 ### Diseño
 * Elabore el diagrama UML que represente los aspectos más importantes que requiere este enunciado para dar respuesta el ejercicio
 * Complete el .README con el link al diagrama de clases y la imagen del diagrama de clases resultante. 
